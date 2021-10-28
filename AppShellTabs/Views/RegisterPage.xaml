@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppShellTabs.Views.RegisterPage">
+    <ContentPage.Content>
+        <StackLayout Padding="29" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+
+            <StackLayout >
+                <Image Grid.Row="1"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="2"
+                   Source="Logoblack.png"
+                   HeightRequest="90"
+                   Aspect="AspectFit"
+                   Margin="14"/>
+            <Label Grid.Row="2"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="2"
+                   Text="Registrarse"
+                   HorizontalOptions="Start"
+                   FontAttributes="Bold"
+                   TextColor="Black"
+                      
+                FontSize="20"
+                   
+                   HorizontalTextAlignment="Center"
+                   />
+            <Label Grid.Row="2"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="3"
+                   Text="Ingrese sus credenciales para continuar"
+                   FontSize="15"
+                   HorizontalOptions="Start"
+                   FontAttributes="None"
+                   TextColor="Gray"               
+                   HorizontalTextAlignment="Center"
+                   
+                   />
+            </StackLayout>
+
+
+            <StackLayout VerticalOptions="CenterAndExpand">
+                <ScrollView>
+
+                <Entry Placeholder="Nombres y Apellidos" ></Entry>
+               
+                </ScrollView>
+            </StackLayout>
+            <StackLayout VerticalOptions="StartAndExpand">
+                <ScrollView>
+
+                    <Entry Placeholder="Email"></Entry>
+
+                </ScrollView>
+            </StackLayout>
+            <StackLayout VerticalOptions="StartAndExpand">
+                <ScrollView>
+
+                <Entry Placeholder="Contraseña"></Entry>
+
+            </ScrollView>
+            </StackLayout>
+            <Label Grid.Row="2"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="3"
+                   Text="Al continuar, acepta nuestros Términos de servicio.
+y Política de privacidad."
+                   FontSize="15"
+                   HorizontalOptions="Start"
+                   FontAttributes="None"
+                   TextColor="Gray"               
+                   HorizontalTextAlignment="Center"
+                   Margin="12"
+                   />
+            <Button Grid.Row="4"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="2"
+                    Text="Crear Cuenta"
+                    TextColor="White"
+                    ImageSource="WhiteArrow.png"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    BackgroundColor="#53B175"
+                    HeightRequest="52"
+                    WidthRequest="1400"
+                    CornerRadius="30" Padding="10"/>
+            
+            
+            <StackLayout  HorizontalOptions="Center"
+                        Orientation="Horizontal"
+                        Spacing="1"
+                        VerticalOptions="End" Padding="12">
+
+                
+
+                <Label
+                        FontAttributes="None"
+                        FontSize="18"
+                        HorizontalOptions="CenterAndExpand"
+                        TextColor="#99A1B3"
+                        VerticalOptions="CenterAndExpand" >
+                    <Label.FormattedText >
+                        <FormattedString>
+                            <Span Text="¿No tienes una cuenta?    " FontAttributes="Bold" TextColor="Black"></Span>
+                            <Span TextColor="#53B175" Text="Registrate" FontAttributes="Bold"></Span>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </StackLayout>
+            
+                   
+           
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

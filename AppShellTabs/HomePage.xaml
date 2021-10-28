@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppShellTabs.HomePage" >
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Grid.Column="0" WidthRequest="325" HeightRequest="28" HorizontalOptions="Center" Margin="0,0,0,0">
+
+                <ScrollView>
+                    <StackLayout Padding="10">
+                        <Frame Padding="0,0,0,0" HasShadow="True" CornerRadius="15" WidthRequest="440" >
+                            <SearchBar Placeholder="Busqueda"
+                                   CancelButtonColor="Orange"
+                                   PlaceholderColor="Black"
+                                   TextColor="Orange"
+                                   TextTransform="None"
+                                   HorizontalTextAlignment="Start"
+                                   FontSize="14"
+                                   FontAttributes="Italic"  BackgroundColor="WhiteSmoke"/>
+                        </Frame>
+                    </StackLayout>
+
+                </ScrollView>
+
+                <Image Source="LogoHome.jpg" HorizontalOptions="Center" WidthRequest="310"></Image>
+                <Label
+                        FontAttributes="None"
+                        FontSize="18"
+                        HorizontalOptions="CenterAndExpand"
+                        TextColor="#99A1B3"
+                        VerticalOptions="CenterAndExpand" >
+                    <Label.FormattedText >
+                        <FormattedString>
+                            <Span Text="Oferta Exclusiva                       " FontAttributes="Bold" TextColor="Black" FontSize="18"></Span>
+                            <Span TextColor="#53B175" Text="Ver Todo" FontAttributes="Bold" FontSize="18"></Span>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <ScrollView>
+                    <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto"
+                          VerticalOptions="CenterAndExpand"
+                          ColumnDefinitions="*,*"
+                          Padding="0">
+                        <Frame Margin="9"
+                               BorderColor="#cacdcc"
+                               CornerRadius="10"
+                               HeightRequest="160"
+                               WidthRequest="130"
+   
+                               HorizontalOptions="Start"
+                               VerticalOptions="Start"  
+                               Grid.Row="0"
+                               Grid.Column="0"
+                               Grid.ColumnSpan="1">
+                            <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Padding="-20">
+                                <Image  Aspect="AspectFit" Source="polera.jpg"
+                                        Margin="0,20,0,0" WidthRequest="60" HeightRequest="110"/>
+                                <Label Grid.Row="2"
+                               Grid.Column="0"
+                               Grid.ColumnSpan="3"
+                               Text="Poleron Negro"
+                               FontSize="15"
+                               HorizontalOptions="Start"
+                               FontAttributes="None"
+                               TextColor="Black"               
+                               HorizontalTextAlignment="Center"/>
+                                <Label Grid.Row="2"
+                               Grid.Column="0"
+                               Grid.ColumnSpan="3"
+                               Text="S/25.99"
+                               FontSize="15"
+                               HorizontalOptions="Center"
+                               FontAttributes="Bold"
+                               TextColor="Black"               
+                               HorizontalTextAlignment="Center"  />
+                            </StackLayout>
+                            
+                        </Frame>
+                        <Frame Margin="9"
+                               BorderColor="#cacdcc"
+                               CornerRadius="10"
+                               HeightRequest="160"
+                               WidthRequest="130"
+   
+                               HorizontalOptions="Start"
+                               VerticalOptions="Start"  
+                               Grid.Row="0"
+                               Grid.Column="1"
+                               Grid.ColumnSpan="1">
+                            <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Padding="-20">
+                                <Image  Aspect="AspectFit" Source="LaptopInicio.jpg"
+                                        Margin="0,20,0,0" WidthRequest="60" HeightRequest="110"/>
+                                <Label Grid.Row="2"
+                               Grid.Column="0"
+                               Grid.ColumnSpan="3"
+                               Text="Laptop Gamer"
+                               FontSize="15"
+                               HorizontalOptions="Start"
+                               FontAttributes="None"
+                               TextColor="Black"               
+                               HorizontalTextAlignment="Center"/>
+                                <Label Grid.Row="2"
+                               Grid.Column="0"
+                               Grid.ColumnSpan="3"
+                               Text="S/2125.99"
+                               FontSize="15"
+                               HorizontalOptions="Center"
+                               FontAttributes="Bold"
+                               TextColor="Black"               
+                               HorizontalTextAlignment="Center"  />
+                            </StackLayout>
+
+                        </Frame>
+                        <Frame Margin="9"
+                               BorderColor="#cacdcc"
+                               CornerRadius="10"
+                               HeightRequest="160"
+                               WidthRequest="130"
+   
+                               HorizontalOptions="Start"
+                               VerticalOptions="Start"  
+                               Grid.Row="1"
+                               Grid.Column="0"
+                               Grid.ColumnSpan="1">
+                            <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Padding="-20">
+                                <Image  Aspect="AspectFill" Source="ZapatillasInicio.jpg"
+                                        Margin="0,20,0,0" WidthRequest="100" HeightRequest="110"/>
+                                <Label Grid.Row="2"
+                               Grid.Column="0"
+                               Grid.ColumnSpan="3"
+                               Text="Zapatillas DC"
+                               FontSize="15"
+                               HorizontalOptions="Start"
+                               FontAttributes="None"
+                               TextColor="Black"               
+                               HorizontalTextAlignment="Center"/>
+                                <Label Grid.Row="2"
+                               Grid.Column="0"
+                               Grid.ColumnSpan="3"
+                               Text="S/145.99"
+                               FontSize="15"
+                               HorizontalOptions="Center"
+                               FontAttributes="Bold"
+                               TextColor="Black"               
+                               HorizontalTextAlignment="Center"  />
+                            </StackLayout>
+
+                        </Frame>
+                        <Frame Margin="9"
+                               BorderColor="#cacdcc"
+                               CornerRadius="10"
+                               HeightRequest="160"
+                               WidthRequest="130"
+   
+                               HorizontalOptions="Start"
+                               VerticalOptions="Start"  
+                               Grid.Row="1"
+                               Grid.Column="1"
+                               Grid.ColumnSpan="1">
+                            <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Padding="-20">
+                                <Image  Aspect="AspectFill" Source="MuebleInico.jpg"
+                                        Margin="0,20,0,0" WidthRequest="60" HeightRequest="110"/>
+                                <Label Grid.Row="2"
+                               Grid.Column="0"
+                               Grid.ColumnSpan="3"
+                               Text="Melen's Sofá Roma"
+                               FontSize="15"
+                               HorizontalOptions="Start"
+                               FontAttributes="None"
+                               TextColor="Black"               
+                               HorizontalTextAlignment="Center"/>
+                                <Label Grid.Row="2"
+                               Grid.Column="0"
+                               Grid.ColumnSpan="3"
+                               Text="S/1500.99"
+                               FontSize="15"
+                               HorizontalOptions="Center"
+                               FontAttributes="Bold"
+                               TextColor="Black"               
+                               HorizontalTextAlignment="Center"  />
+                            </StackLayout>
+
+                        </Frame>
+                       
+
+                    </Grid>
+                </ScrollView>
+
+            </StackLayout>
+
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

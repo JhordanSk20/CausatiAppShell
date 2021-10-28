@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppShellTabs.Views.LoginPage">
+    <ContentPage.Content>
+        <StackLayout Padding="29" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+
+            <Image Grid.Row="1"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="2"
+                   Source="Logoblack.png"
+                   HeightRequest="90"
+                   Aspect="AspectFit"
+                   Margin="14"/>
+            <Label Grid.Row="2"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="2"
+                   Text="Iniciar Sesión "
+                   HorizontalOptions="Start"
+                   FontAttributes="Bold"
+                   TextColor="Black"
+                      
+                FontSize="20"
+                   
+                   HorizontalTextAlignment="Center"
+                   />
+            <Label Grid.Row="2"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="3"
+                   Text="Ingrese su correo electrónico y contraseña"
+                   FontSize="15"
+                   HorizontalOptions="Start"
+                   FontAttributes="None"
+                   TextColor="Gray"               
+                   HorizontalTextAlignment="Center"
+                   
+                   />
+           
+            
+
+           <ScrollView>
+              
+                <Entry Placeholder="Email"></Entry>
+               
+           </ScrollView>
+            <ScrollView>
+
+                <Entry Placeholder="Contraseña"></Entry>
+
+            </ScrollView>
+            <Label Grid.Row="2"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="2"
+                   Text="¿Olvidaste tu contraseña? "
+                   HorizontalOptions="End"
+                   FontAttributes="Bold"
+                   TextColor="Gray"
+                  
+                      
+                FontSize="13"
+                   
+                   HorizontalTextAlignment="Center"
+                   Margin="10"
+                   />
+            <Button Grid.Row="4"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="2"
+                    Text="Iniciar Sesión"
+                    TextColor="White"
+                    ImageSource="WhiteArrow.png"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    BackgroundColor="#53B175"
+                    HeightRequest="52"
+                    WidthRequest="1400"
+                    CornerRadius="30"/>
+            <Label Grid.Row="2"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="2"
+                   Text=" O "
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"
+                   TextColor="Black"
+                  
+                      
+                FontSize="19"
+                   
+                   HorizontalTextAlignment="Center"
+                   Margin="10"
+                   />
+            <Button Grid.Row="4"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="2"
+                    Text="Inicie Sesión con Google"
+                    TextColor="White"
+                    ImageSource="WhiteArrow.png"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    BackgroundColor="#5383EC"
+                    HeightRequest="52"
+                    WidthRequest="1400"
+                    CornerRadius="30"/>
+            <Button Grid.Row="4"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="2"
+                    Text="Inicie Sesión con Facebook"
+                    TextColor="White"
+                    ImageSource="WhiteArrow.png"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    BackgroundColor="#4A66AC"
+                    HeightRequest="52"
+                    WidthRequest="1400"
+                    CornerRadius="30"/>
+            <StackLayout  HorizontalOptions="Center"
+                        Orientation="Horizontal"
+                        Spacing="1"
+                        VerticalOptions="End">
+
+                
+
+                <Label
+                        FontAttributes="None"
+                        FontSize="18"
+                        HorizontalOptions="CenterAndExpand"
+                        TextColor="#99A1B3"
+                        VerticalOptions="CenterAndExpand" >
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="¿No tienes una cuenta?    " FontAttributes="Bold" TextColor="Black"></Span>
+                            <Span TextColor="#53B175" Text="Registrate" FontAttributes="Bold"></Span>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </StackLayout>
+            
+                   
+           
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
