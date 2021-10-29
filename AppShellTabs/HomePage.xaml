@@ -10,13 +10,13 @@
                     <StackLayout Padding="10">
                         <Frame Padding="0,0,0,0" HasShadow="True" CornerRadius="15" WidthRequest="440" >
                             <SearchBar Placeholder="Busqueda"
-                                   CancelButtonColor="Orange"
+                                   CancelButtonColor="Black"
                                    PlaceholderColor="Black"
-                                   TextColor="Orange"
+                                   TextColor="Black"
                                    TextTransform="None"
                                    HorizontalTextAlignment="Start"
                                    FontSize="14"
-                                   FontAttributes="Italic"  BackgroundColor="WhiteSmoke"/>
+                                   FontAttributes="Bold"  BackgroundColor="WhiteSmoke"/>
                         </Frame>
                     </StackLayout>
 

@@ -16,5 +16,7 @@ namespace AppShellTabs.Views
         {
             InitializeComponent();
         }
+
     }
+
 }

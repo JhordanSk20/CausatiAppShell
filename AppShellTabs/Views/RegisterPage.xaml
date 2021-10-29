@@ -49,14 +49,14 @@
             <StackLayout VerticalOptions="StartAndExpand">
                 <ScrollView>
 
-                    <Entry Placeholder="Email"></Entry>
+                    <Entry Placeholder="Email" AutomationId="Email"></Entry>
 
                 </ScrollView>
             </StackLayout>
             <StackLayout VerticalOptions="StartAndExpand">
                 <ScrollView>
 
-                <Entry Placeholder="Contraseña"></Entry>
+                    <Entry Placeholder="Contraseña" IsPassword="True"></Entry>
 
             </ScrollView>
             </StackLayout>
@@ -102,7 +102,7 @@ y Política de privacidad."
                     <Label.FormattedText >
                         <FormattedString>
                             <Span Text="¿No tienes una cuenta?    " FontAttributes="Bold" TextColor="Black"></Span>
-                            <Span TextColor="#53B175" Text="Registrate" FontAttributes="Bold"></Span>
+                            <Span TextColor="#53B175" Text="Iniciar Sesión" FontAttributes="Bold"></Span>
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>

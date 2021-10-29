@@ -40,12 +40,12 @@
 
            <ScrollView>
               
-                <Entry Placeholder="Email"></Entry>
+                <Entry Placeholder="Email" ></Entry>
                
            </ScrollView>
             <ScrollView>
 
-                <Entry Placeholder="Contraseña"></Entry>
+                <Entry Placeholder="Contraseña" IsPassword="True"></Entry>
 
             </ScrollView>
             <Label Grid.Row="2"

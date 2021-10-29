@@ -16,5 +16,8 @@ namespace AppShellTabs.Views
         {
             InitializeComponent();
         }
+        public bool IsPassword { get; set; }
+
     }
+
 }
